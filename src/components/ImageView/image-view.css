@@ -1,0 +1,115 @@
+.image-view-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.image-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fafafa;
+    height: 90%;
+    width: 80%;
+    padding: 32px 42px;
+    border-radius: 12px;
+}
+
+.image-view__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.image-view__img > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-view__info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 30%;
+    padding-left: 24px;
+}
+
+.image-view__author-wrapper {
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+.image-view__author-img {
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.image-view__author {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-view__author > a {
+    font-weight: 700;
+}
+
+.image-view__parametrs {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.image-view__parametrs > span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.image-view__parametrs > span > img {
+    margin-right: 12px;
+    opacity: .7;
+}
+
+.image-view__download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #266fef;
+    color: #fafafa;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow .2s;
+}
+
+.image-view__download:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .35);
+}
+
+.close-modal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-modal > button {
+    background: #266fef;
+    color: #fafafa;
+    height: 26px;
+    width: 80px;
+    margin: 4px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}

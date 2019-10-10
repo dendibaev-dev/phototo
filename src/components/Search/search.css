@@ -1,0 +1,34 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 200px;
+}
+
+.search__text {
+    margin-bottom: 32px;
+}
+
+.search__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    padding: 0 20px;
+    border: 2px solid #266fef;
+    border-radius: 24px;
+}
+
+.search__form-input {
+    height: 44px;
+    width: 100%;
+    padding-left: 8px;
+}
+
+.search__form-button {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}

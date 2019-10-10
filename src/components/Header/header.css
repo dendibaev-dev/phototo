@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    min-height: 44px;
+    width: 100%;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'SF UI Display Medium', sans-serif;
+    font-size: 20px;
+    width: 100px;
+}
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.header__menu > span {
+    display: block;
+    background: #1f2f4b;
+    content: '';
+    height: 4px;
+    width: 32px;
+    border-radius: 2px;
+}

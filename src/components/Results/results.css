@@ -1,0 +1,16 @@
+.results__items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 0;
+}
+
+.results__item {
+    margin: 2px 12px 12px 0;
+}
+
+.item__img {
+    max-width: 360px;
+    max-height: 200px;
+}
+
+/* dyadya.maga.083@gmail.com */
