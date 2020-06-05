@@ -10,4 +10,4 @@ Phototo это WEB - Приложение для поиска стоковых �
 - [React Router](https://github.com/ReactTraining/react-router)
 
 ## Author
-- [Ndoto](https://github.com/ndoto-dev/)
+- [Dendibaev](https://github.com/dendibaev-dev/)
